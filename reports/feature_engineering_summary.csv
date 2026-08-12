@@ -1,0 +1,9 @@
+feature,description
+total_better_measures,"Sum of mortality, safety and readmission measures rated better than comparison."
+total_worse_measures,"Sum of mortality, safety and readmission measures rated worse than comparison."
+quality_balance_score,Total better measures minus total worse measures.
+better_measure_ratio,"Better measures divided by available evaluated mortality, safety and readmission measures."
+worse_measure_ratio,"Worse measures divided by available evaluated mortality, safety and readmission measures."
+quality_coverage,"Total reported measures across mortality, safety, readmission, patient experience and timely care."
+hospital_size_category,"Small, Medium or Large based on 33rd and 67th percentiles of affiliated clinician count; Unknown when clinician count is missing."
+rating_category,"Derived target: 1-2 Low, 3 Medium, 4-5 High."

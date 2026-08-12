@@ -1,0 +1,5 @@
+column,q1,q3,iqr,lower_bound,upper_bound,outlier_count,outlier_percent
+zip_code,18395.5,91470.5,73075.0,-91217.0,201083.0,0,0.0
+overall_rating,2.0,4.0,2.0,-1.0,7.0,0,0.0
+patient_survey_rating,2.0,3.0,1.0,0.5,4.5,14,2.35
+affiliated_clinicians,170.5,739.0,568.5,-682.25,1591.75,39,5.99

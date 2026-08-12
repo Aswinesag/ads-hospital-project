@@ -1,0 +1,11 @@
+metric,value
+original_rows,835
+original_columns,51
+final_rows,835
+final_columns,39
+columns_dropped,12
+duplicate_rows_removed,0
+duplicate_provider_ids_removed,0
+missing_overall_rating,239
+missing_patient_survey_rating,239
+missing_affiliated_clinicians,184

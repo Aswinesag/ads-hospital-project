@@ -1,0 +1,10 @@
+column,missing_count,missing_percent
+unplanned_hospital_visits_text,835,100.0
+scraping_error,835,100.0
+timely_and_effective_care_text,835,100.0
+psychiatric_unit_services_text,835,100.0
+payment_text,835,100.0
+patient_reported_outcomes_text,835,100.0
+maternal_health_text,835,100.0
+complications_and_deaths_text,835,100.0
+birthing_friendly,428,51.26

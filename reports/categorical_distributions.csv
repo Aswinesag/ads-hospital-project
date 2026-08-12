@@ -1,0 +1,263 @@
+column,value,count,percent
+provider_id,030002,1,0.12
+provider_id,030006,1,0.12
+provider_id,030007,1,0.12
+provider_id,030010,1,0.12
+provider_id,030011,1,0.12
+provider_id,030012,1,0.12
+provider_id,030014,1,0.12
+provider_id,030016,1,0.12
+provider_id,030022,1,0.12
+provider_id,030024,1,0.12
+hospital_name,Valley Hospital,2,0.24
+hospital_name,St Mary Medical Center,2,0.24
+hospital_name,Memorial Medical Center,2,0.24
+hospital_name,Garnet Health Medical Center Catskills,2,0.24
+hospital_name,Baylor Scott & White Hospital Brenham,2,0.24
+hospital_name,Banner - University Medical Center Phoenix,1,0.12
+hospital_name,Tucson Medical Center,1,0.12
+hospital_name,Verde Valley Medical Center,1,0.12
+hospital_name,St. Mary's Hospital,1,0.12
+hospital_name,St Joseph's Hospital,1,0.12
+address,700 Medical Parkway,2,0.24
+address,1111 East McDowell Road,1,0.12
+address,5301 East Grant Road,1,0.12
+address,269 South Candy Lane,1,0.12
+address,1601 West St Mary's Road,1,0.12
+address,350 North Wilmot Road,1,0.12
+address,1003 Willow Creek Road,1,0.12
+address,250 East Dunlap Avenue,1,0.12
+address,1800 East Florence Boulevard,1,0.12
+address,2601 East Roosevelt Street,1,0.12
+city,Houston,28,3.35
+city,Phoenix,22,2.63
+city,Philadelphia,21,2.51
+city,Los Angeles,19,2.28
+city,San Antonio,19,2.28
+city,New York,16,1.92
+city,Austin,15,1.8
+city,San Francisco,13,1.56
+city,Brooklyn,11,1.32
+city,El Paso,11,1.32
+state,CA,283,33.89
+state,TX,177,21.2
+state,NY,98,11.74
+state,AZ,77,9.22
+state,NJ,76,9.1
+state,PA,62,7.43
+state,CT,28,3.35
+state,NC,22,2.63
+state,NM,7,0.84
+state,SC,5,0.6
+phone_number,(415) 600-6000,2,0.24
+phone_number,(248) 905-5091,2,0.24
+phone_number,(704) 384-4000,2,0.24
+phone_number,(979) 836-6173,2,0.24
+phone_number,(512) 324-0000,2,0.24
+phone_number,(602) 839-2000,1,0.12
+phone_number,(520) 324-1399,1,0.12
+phone_number,(928) 773-2357,1,0.12
+phone_number,(520) 872-3000,1,0.12
+phone_number,(520) 873-3000,1,0.12
+hospital_type,Acute Care Hospitals,612,73.29
+hospital_type,Psychiatric,135,16.17
+hospital_type,Critical Access Hospitals,38,4.55
+hospital_type,Childrens,23,2.75
+hospital_type,Acute Care - Veterans Administration,20,2.4
+hospital_type,Acute Care - Department of Defense,5,0.6
+hospital_type,Long-term,2,0.24
+emergency_services,Yes,621,74.37
+emergency_services,No,214,25.63
+overall_rating_raw,,239,28.62
+overall_rating_raw,4 stars,173,20.72
+overall_rating_raw,3 stars,160,19.16
+overall_rating_raw,2 stars,126,15.09
+overall_rating_raw,5 stars,92,11.02
+overall_rating_raw,1 stars,45,5.39
+patient_survey_rating_raw,3 stars,280,33.53
+patient_survey_rating_raw,,239,28.62
+patient_survey_rating_raw,2 stars,159,19.04
+patient_survey_rating_raw,4 stars,115,13.77
+patient_survey_rating_raw,1 stars,28,3.35
+patient_survey_rating_raw,5 stars,14,1.68
+quality_categories,Timely & effective care | Complications & deaths | Unplanned hospital visits | Maternal health | Patient-reported outcomes | Psychiatric unit services | Payment,835,100.0
+quality_section_text,Quality,835,100.0
+all_star_rating_labels,,239,28.62
+all_star_rating_labels,4 stars | 3 stars | 4 stars | 3 stars,99,11.86
+all_star_rating_labels,3 stars | 3 stars | 3 stars | 3 stars,81,9.7
+all_star_rating_labels,2 stars | 2 stars | 2 stars | 2 stars,61,7.31
+all_star_rating_labels,3 stars | 2 stars | 3 stars | 2 stars,49,5.87
+all_star_rating_labels,2 stars | 3 stars | 2 stars | 3 stars,46,5.51
+all_star_rating_labels,5 stars | 4 stars | 5 stars | 4 stars,41,4.91
+all_star_rating_labels,5 stars | 3 stars | 5 stars | 3 stars,38,4.55
+all_star_rating_labels,4 stars | 4 stars | 4 stars | 4 stars,38,4.55
+all_star_rating_labels,1 stars | 2 stars | 1 stars | 2 stars,22,2.63
+data_last_updated,"May 13, 2026",835,100.0
+profile_url,https://www.medicare.gov/care-compare/details/hospital/030002?city=Phoenix&state=AZ&zipcode=,1,0.12
+profile_url,https://www.medicare.gov/care-compare/details/hospital/030006?city=Chandler&state=AZ&zipcode=,1,0.12
+profile_url,https://www.medicare.gov/care-compare/details/hospital/030007?city=Phoenix&state=AZ&zipcode=,1,0.12
+profile_url,https://www.medicare.gov/care-compare/details/hospital/030010?city=Chandler&state=AZ&zipcode=,1,0.12
+profile_url,https://www.medicare.gov/care-compare/details/hospital/030011?city=Chandler&state=AZ&zipcode=,1,0.12
+profile_url,https://www.medicare.gov/care-compare/details/hospital/030012?city=Phoenix&state=AZ&zipcode=,1,0.12
+profile_url,https://www.medicare.gov/care-compare/details/hospital/030014?city=Phoenix&state=AZ&zipcode=,1,0.12
+profile_url,https://www.medicare.gov/care-compare/details/hospital/030016?city=Phoenix&state=AZ&zipcode=,1,0.12
+profile_url,https://www.medicare.gov/care-compare/details/hospital/030022?city=Phoenix&state=AZ&zipcode=,1,0.12
+profile_url,https://www.medicare.gov/care-compare/details/hospital/030024?city=Phoenix&state=AZ&zipcode=,1,0.12
+scraped_at,2026-08-04T16:49:32.925188+00:00,1,0.12
+scraped_at,2026-08-04T17:09:58.294290+00:00,1,0.12
+scraped_at,2026-08-04T17:00:44.366534+00:00,1,0.12
+scraped_at,2026-08-04T17:09:45.927026+00:00,1,0.12
+scraped_at,2026-08-04T17:09:33.815776+00:00,1,0.12
+scraped_at,2026-08-04T17:01:21.983304+00:00,1,0.12
+scraped_at,2026-08-04T16:55:00.618677+00:00,1,0.12
+scraped_at,2026-08-04T16:50:25.703482+00:00,1,0.12
+scraped_at,2026-08-04T17:00:32.386287+00:00,1,0.12
+scraped_at,2026-08-04T16:59:30.737802+00:00,1,0.12
+scraping_status,success,835,100.0
+hospital_ownership,Voluntary non-profit - Private,361,43.23
+hospital_ownership,Proprietary,220,26.35
+hospital_ownership,Voluntary non-profit - Other,64,7.66
+hospital_ownership,Government - Hospital District or Authority,42,5.03
+hospital_ownership,Government - State,40,4.79
+hospital_ownership,Voluntary non-profit - Church,31,3.71
+hospital_ownership,Government - Local,27,3.23
+hospital_ownership,Veterans Health Administration,20,2.4
+hospital_ownership,Physician,19,2.28
+hospital_ownership,Department of Defense,5,0.6
+county,LOS ANGELES,88,10.54
+county,MARICOPA,53,6.35
+county,HARRIS,50,5.99
+county,ORANGE,33,3.95
+county,MONTGOMERY,23,2.75
+county,PHILADELPHIA,21,2.51
+county,BEXAR,20,2.4
+county,SAN BERNARDINO,18,2.16
+county,NEW YORK,16,1.92
+county,ALAMEDA,15,1.8
+birthing_friendly,,428,51.26
+birthing_friendly,Y,407,48.74
+mort_group_measure_count,8,664,79.52
+mort_group_measure_count,Not Available,171,20.48
+facility_mort_measures,Not Available,216,25.87
+facility_mort_measures,8,181,21.68
+facility_mort_measures,7,133,15.93
+facility_mort_measures,6,68,8.14
+facility_mort_measures,5,63,7.54
+facility_mort_measures,1,49,5.87
+facility_mort_measures,3,47,5.63
+facility_mort_measures,4,46,5.51
+facility_mort_measures,2,32,3.83
+mort_better,0,442,52.93
+mort_better,Not Available,216,25.87
+mort_better,1,72,8.62
+mort_better,2,47,5.63
+mort_better,3,30,3.59
+mort_better,4,14,1.68
+mort_better,5,10,1.2
+mort_better,6,2,0.24
+mort_better,7,1,0.12
+mort_better,8,1,0.12
+mort_no_different,Not Available,216,25.87
+mort_no_different,7,112,13.41
+mort_no_different,6,108,12.93
+mort_no_different,5,93,11.14
+mort_no_different,4,74,8.86
+mort_no_different,8,71,8.5
+mort_no_different,3,66,7.9
+mort_no_different,1,51,6.11
+mort_no_different,2,43,5.15
+mort_no_different,0,1,0.12
+mort_worse,0,577,69.1
+mort_worse,Not Available,216,25.87
+mort_worse,1,33,3.95
+mort_worse,2,7,0.84
+mort_worse,5,1,0.12
+mort_worse,3,1,0.12
+safety_group_measure_count,8,664,79.52
+safety_group_measure_count,Not Available,171,20.48
+facility_safety_measures,Not Available,232,27.78
+facility_safety_measures,7,177,21.2
+facility_safety_measures,6,124,14.85
+facility_safety_measures,8,96,11.5
+facility_safety_measures,2,63,7.54
+facility_safety_measures,4,46,5.51
+facility_safety_measures,5,39,4.67
+facility_safety_measures,3,36,4.31
+facility_safety_measures,1,22,2.63
+safety_better,Not Available,232,27.78
+safety_better,1,226,27.07
+safety_better,0,152,18.2
+safety_better,2,111,13.29
+safety_better,3,63,7.54
+safety_better,4,41,4.91
+safety_better,5,9,1.08
+safety_better,6,1,0.12
+safety_no_different,Not Available,232,27.78
+safety_no_different,5,153,18.32
+safety_no_different,4,130,15.57
+safety_no_different,3,89,10.66
+safety_no_different,6,87,10.42
+safety_no_different,2,78,9.34
+safety_no_different,1,36,4.31
+safety_no_different,7,28,3.35
+safety_no_different,0,1,0.12
+safety_no_different,8,1,0.12
+safety_worse,0,542,64.91
+safety_worse,Not Available,232,27.78
+safety_worse,1,58,6.95
+safety_worse,2,3,0.36
+readm_group_measure_count,11,664,79.52
+readm_group_measure_count,Not Available,171,20.48
+facility_readm_measures,Not Available,204,24.43
+facility_readm_measures,11,102,12.22
+facility_readm_measures,8,78,9.34
+facility_readm_measures,10,71,8.5
+facility_readm_measures,6,66,7.9
+facility_readm_measures,9,60,7.19
+facility_readm_measures,7,58,6.95
+facility_readm_measures,5,48,5.75
+facility_readm_measures,3,47,5.63
+facility_readm_measures,4,43,5.15
+readm_better,0,390,46.71
+readm_better,Not Available,204,24.43
+readm_better,1,170,20.36
+readm_better,2,52,6.23
+readm_better,3,15,1.8
+readm_better,4,2,0.24
+readm_better,5,1,0.12
+readm_better,8,1,0.12
+readm_no_different,Not Available,204,24.43
+readm_no_different,7,91,10.9
+readm_no_different,5,91,10.9
+readm_no_different,6,79,9.46
+readm_no_different,4,73,8.74
+readm_no_different,8,67,8.02
+readm_no_different,2,59,7.07
+readm_no_different,3,58,6.95
+readm_no_different,1,50,5.99
+readm_no_different,9,47,5.63
+readm_worse,Not Available,204,24.43
+readm_worse,0,203,24.31
+readm_worse,1,187,22.4
+readm_worse,2,151,18.08
+readm_worse,3,68,8.14
+readm_worse,4,21,2.51
+readm_worse,6,1,0.12
+patient_exp_group_measure_count,15,664,79.52
+patient_exp_group_measure_count,Not Available,171,20.48
+facility_patient_exp_measures,15,527,63.11
+facility_patient_exp_measures,Not Available,235,28.14
+facility_patient_exp_measures,10,48,5.75
+facility_patient_exp_measures,5,25,2.99
+te_group_measure_count,10,664,79.52
+te_group_measure_count,Not Available,171,20.48
+facility_te_measures,Not Available,176,21.08
+facility_te_measures,8,172,20.6
+facility_te_measures,7,135,16.17
+facility_te_measures,9,115,13.77
+facility_te_measures,5,45,5.39
+facility_te_measures,10,43,5.15
+facility_te_measures,6,43,5.15
+facility_te_measures,4,42,5.03
+facility_te_measures,3,29,3.47
+facility_te_measures,2,23,2.75

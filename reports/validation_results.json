@@ -1,0 +1,296 @@
+{
+    "dataset": "data\\medicare_feature_engineered.csv",
+    "rows": 835,
+    "columns": 47,
+    "total_validations": 57,
+    "passed": 57,
+    "failed": 0,
+    "success": true,
+    "results": [
+        {
+            "description": "Dataset must contain exactly 835 hospitals.",
+            "success": true,
+            "expectation_type": "ExpectTableRowCountToEqual"
+        },
+        {
+            "description": "Required column 'provider_id' must exist.",
+            "success": true,
+            "expectation_type": "ExpectColumnToExist"
+        },
+        {
+            "description": "Required column 'hospital_name' must exist.",
+            "success": true,
+            "expectation_type": "ExpectColumnToExist"
+        },
+        {
+            "description": "Required column 'state' must exist.",
+            "success": true,
+            "expectation_type": "ExpectColumnToExist"
+        },
+        {
+            "description": "Required column 'hospital_type' must exist.",
+            "success": true,
+            "expectation_type": "ExpectColumnToExist"
+        },
+        {
+            "description": "Required column 'hospital_ownership' must exist.",
+            "success": true,
+            "expectation_type": "ExpectColumnToExist"
+        },
+        {
+            "description": "Required column 'overall_rating' must exist.",
+            "success": true,
+            "expectation_type": "ExpectColumnToExist"
+        },
+        {
+            "description": "Required column 'patient_survey_rating' must exist.",
+            "success": true,
+            "expectation_type": "ExpectColumnToExist"
+        },
+        {
+            "description": "Required column 'affiliated_clinicians' must exist.",
+            "success": true,
+            "expectation_type": "ExpectColumnToExist"
+        },
+        {
+            "description": "Required column 'mort_better' must exist.",
+            "success": true,
+            "expectation_type": "ExpectColumnToExist"
+        },
+        {
+            "description": "Required column 'mort_worse' must exist.",
+            "success": true,
+            "expectation_type": "ExpectColumnToExist"
+        },
+        {
+            "description": "Required column 'safety_better' must exist.",
+            "success": true,
+            "expectation_type": "ExpectColumnToExist"
+        },
+        {
+            "description": "Required column 'safety_worse' must exist.",
+            "success": true,
+            "expectation_type": "ExpectColumnToExist"
+        },
+        {
+            "description": "Required column 'readm_better' must exist.",
+            "success": true,
+            "expectation_type": "ExpectColumnToExist"
+        },
+        {
+            "description": "Required column 'readm_worse' must exist.",
+            "success": true,
+            "expectation_type": "ExpectColumnToExist"
+        },
+        {
+            "description": "Required column 'total_better_measures' must exist.",
+            "success": true,
+            "expectation_type": "ExpectColumnToExist"
+        },
+        {
+            "description": "Required column 'total_worse_measures' must exist.",
+            "success": true,
+            "expectation_type": "ExpectColumnToExist"
+        },
+        {
+            "description": "Required column 'quality_balance_score' must exist.",
+            "success": true,
+            "expectation_type": "ExpectColumnToExist"
+        },
+        {
+            "description": "Required column 'better_measure_ratio' must exist.",
+            "success": true,
+            "expectation_type": "ExpectColumnToExist"
+        },
+        {
+            "description": "Required column 'worse_measure_ratio' must exist.",
+            "success": true,
+            "expectation_type": "ExpectColumnToExist"
+        },
+        {
+            "description": "Required column 'quality_coverage' must exist.",
+            "success": true,
+            "expectation_type": "ExpectColumnToExist"
+        },
+        {
+            "description": "Required column 'hospital_size_category' must exist.",
+            "success": true,
+            "expectation_type": "ExpectColumnToExist"
+        },
+        {
+            "description": "Required column 'rating_category' must exist.",
+            "success": true,
+            "expectation_type": "ExpectColumnToExist"
+        },
+        {
+            "description": "provider_id must not contain null values.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToNotBeNull"
+        },
+        {
+            "description": "provider_id must be unique.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeUnique"
+        },
+        {
+            "description": "provider_id must be a valid six-character CMS facility identifier.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToMatchRegex"
+        },
+        {
+            "description": "Available overall_rating values must be between 1 and 5.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "Available patient_survey_rating values must be between 1 and 5.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "State must belong to the observed 10-state dataset.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeInSet"
+        },
+        {
+            "description": "emergency_services must contain only Yes or No.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeInSet"
+        },
+        {
+            "description": "mort_group_measure_count must contain non-negative values.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "facility_mort_measures must contain non-negative values.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "mort_better must contain non-negative values.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "mort_no_different must contain non-negative values.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "mort_worse must contain non-negative values.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "safety_group_measure_count must contain non-negative values.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "facility_safety_measures must contain non-negative values.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "safety_better must contain non-negative values.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "safety_no_different must contain non-negative values.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "safety_worse must contain non-negative values.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "readm_group_measure_count must contain non-negative values.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "facility_readm_measures must contain non-negative values.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "readm_better must contain non-negative values.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "readm_no_different must contain non-negative values.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "readm_worse must contain non-negative values.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "patient_exp_group_measure_count must contain non-negative values.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "facility_patient_exp_measures must contain non-negative values.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "te_group_measure_count must contain non-negative values.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "facility_te_measures must contain non-negative values.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "total_better_measures must contain non-negative values.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "total_worse_measures must contain non-negative values.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "quality_coverage must contain non-negative values.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "better_measure_ratio must be between 0 and 1.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "worse_measure_ratio must be between 0 and 1.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeBetween"
+        },
+        {
+            "description": "hospital_size_category must contain valid categories.",
+            "success": true,
+            "expectation_type": "ExpectColumnValuesToBeInSet"
+        },
+        {
+            "description": "Available rating_category values must be Low, Medium, or High.",
+            "success": true,
+            "expectation_type": "CustomMissingAwareCategoryValidation"
+        },
+        {
+            "description": "rating_category must match overall_rating.",
+            "success": true,
+            "expectation_type": "CustomTargetConsistencyValidation"
+        }
+    ]
+}

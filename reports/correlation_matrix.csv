@@ -1,0 +1,13 @@
+,zip_code,overall_rating,patient_survey_rating,affiliated_clinicians,scraping_error,timely_and_effective_care_text,complications_and_deaths_text,unplanned_hospital_visits_text,maternal_health_text,patient_reported_outcomes_text,psychiatric_unit_services_text,payment_text
+zip_code,1.0,-0.012318524367006227,0.036796094521162524,-0.28474843197219135,,,,,,,,
+overall_rating,-0.012318524367006227,1.0,0.614781220431929,0.37142503960730694,,,,,,,,
+patient_survey_rating,0.036796094521162524,0.614781220431929,1.0,0.19909972750702393,,,,,,,,
+affiliated_clinicians,-0.28474843197219135,0.37142503960730694,0.19909972750702393,1.0,,,,,,,,
+scraping_error,,,,,,,,,,,,
+timely_and_effective_care_text,,,,,,,,,,,,
+complications_and_deaths_text,,,,,,,,,,,,
+unplanned_hospital_visits_text,,,,,,,,,,,,
+maternal_health_text,,,,,,,,,,,,
+patient_reported_outcomes_text,,,,,,,,,,,,
+psychiatric_unit_services_text,,,,,,,,,,,,
+payment_text,,,,,,,,,,,,

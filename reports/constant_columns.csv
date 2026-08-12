@@ -1,0 +1,14 @@
+column,dtype,non_null_count,missing_count,missing_percent,unique_count,is_constant
+quality_categories,str,835,0,0.0,1,True
+quality_section_text,str,835,0,0.0,1,True
+data_last_updated,str,835,0,0.0,1,True
+scraping_status,str,835,0,0.0,1,True
+scraping_error,float64,0,835,100.0,0,True
+timely_and_effective_care_text,float64,0,835,100.0,0,True
+complications_and_deaths_text,float64,0,835,100.0,0,True
+unplanned_hospital_visits_text,float64,0,835,100.0,0,True
+maternal_health_text,float64,0,835,100.0,0,True
+patient_reported_outcomes_text,float64,0,835,100.0,0,True
+psychiatric_unit_services_text,float64,0,835,100.0,0,True
+payment_text,float64,0,835,100.0,0,True
+birthing_friendly,str,407,428,51.26,1,True

@@ -1,0 +1,13 @@
+column,count,mean,std,min,25%,50%,75%,max,median,missing_count
+zip_code,835.0,61202.73173652695,35846.7260804016,6010.0,18395.5,78251.0,91470.5,95841.0,78251.0,0
+overall_rating,596.0,3.2365771812080535,1.1693872685936921,1.0,2.0,3.0,4.0,5.0,3.0,239
+patient_survey_rating,596.0,2.879194630872483,0.8533690163238551,1.0,2.0,3.0,3.0,5.0,3.0,239
+affiliated_clinicians,651.0,579.9078341013825,666.9206785610853,3.0,170.5,370.0,739.0,5431.0,370.0,184
+scraping_error,0.0,,,,,,,,,835
+timely_and_effective_care_text,0.0,,,,,,,,,835
+complications_and_deaths_text,0.0,,,,,,,,,835
+unplanned_hospital_visits_text,0.0,,,,,,,,,835
+maternal_health_text,0.0,,,,,,,,,835
+patient_reported_outcomes_text,0.0,,,,,,,,,835
+psychiatric_unit_services_text,0.0,,,,,,,,,835
+payment_text,0.0,,,,,,,,,835

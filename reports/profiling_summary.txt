@@ -1,0 +1,33 @@
+HOSPITAL QUALITY DATASET PROFILING SUMMARY
+============================================================
+
+Rows: 835
+Columns: 51
+Duplicate Rows: 0
+Duplicate Provider IDs: 0
+
+Columns with >= 50% missing values:
+- unplanned_hospital_visits_text: 100.0%
+- scraping_error: 100.0%
+- timely_and_effective_care_text: 100.0%
+- psychiatric_unit_services_text: 100.0%
+- payment_text: 100.0%
+- patient_reported_outcomes_text: 100.0%
+- maternal_health_text: 100.0%
+- complications_and_deaths_text: 100.0%
+- birthing_friendly: 51.26%
+
+Constant Columns:
+- quality_categories
+- quality_section_text
+- data_last_updated
+- scraping_status
+- scraping_error
+- timely_and_effective_care_text
+- complications_and_deaths_text
+- unplanned_hospital_visits_text
+- maternal_health_text
+- patient_reported_outcomes_text
+- psychiatric_unit_services_text
+- payment_text
+- birthing_friendly
