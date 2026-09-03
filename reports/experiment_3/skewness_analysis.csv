@@ -1,0 +1,10 @@
+feature,skewness,mean,median,observations,distribution_shape
+overall_rating,-0.17121636538717147,3.2365771812080535,3.0,596,Approximately Symmetric
+patient_survey_rating,0.005661457492838576,2.879194630872483,3.0,596,Approximately Symmetric
+affiliated_clinicians,3.1096876912612914,579.9078341013825,370.0,651,Highly Skewed
+total_better_measures,1.9950269858414185,2.493690851735016,2.0,634,Highly Skewed
+total_worse_measures,0.9239881924264556,1.4227129337539433,1.0,634,Moderately Skewed
+quality_balance_score,1.500194368326799,1.0709779179810726,1.0,634,Highly Skewed
+better_measure_ratio,1.9155257280759233,0.12460283371157041,0.1111111111111111,634,Highly Skewed
+worse_measure_ratio,0.7750479031099111,0.07345090148103998,0.0714285714285714,634,Moderately Skewed
+quality_coverage,-1.167902310736436,37.05,42.0,660,Highly Skewed

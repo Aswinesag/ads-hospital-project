@@ -1,0 +1,15 @@
+feature,correlation_with_overall_rating
+patient_survey_rating,0.614781220431929
+quality_balance_score,0.5451458503860677
+total_better_measures,0.41183281627113055
+better_measure_ratio,0.410554314366911
+mort_better,0.4036625592723819
+readm_better,0.3876466099331343
+affiliated_clinicians,0.37142503960730694
+worse_measure_ratio,-0.36293849233378384
+total_worse_measures,-0.29103390714779803
+readm_worse,-0.2425855035786941
+mort_worse,-0.19876976544006061
+safety_better,0.17630729733246364
+safety_worse,-0.1072489431056754
+quality_coverage,0.08099162545712967

@@ -1,0 +1,4 @@
+test,research_question,statistic,p_value,alpha,decision
+Welch Independent T-Test,Does mean overall rating differ by emergency service availability?,-0.3030940790594294,0.762655181113156,0.05,Fail to Reject H0
+Chi-Square Test,Is hospital size associated with rating category?,61.8566208359315,1.1808137129872876e-12,0.05,Reject H0
+One-Way ANOVA,Does patient survey rating differ across rating categories?,140.8468506234548,8.920985579560511e-51,0.05,Reject H0

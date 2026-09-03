@@ -1,0 +1,10 @@
+feature,q1,q3,iqr,lower_bound,upper_bound,outlier_count,outlier_percentage
+overall_rating,2.0,4.0,2.0,-1.0,7.0,0,0.0
+patient_survey_rating,2.0,3.0,1.0,0.5,4.5,14,2.35
+affiliated_clinicians,170.5,739.0,568.5,-682.25,1591.75,39,5.99
+total_better_measures,1.0,3.0,2.0,-2.0,6.0,45,7.1
+total_worse_measures,0.0,2.0,2.0,-3.0,5.0,5,0.79
+quality_balance_score,-0.75,2.0,2.75,-4.875,6.125,23,3.63
+better_measure_ratio,0.0476190476190476,0.18048128342245986,0.13286223580341228,-0.1516743060860708,0.3797746371275783,17,2.68
+worse_measure_ratio,0.0,0.1153846153846153,0.1153846153846153,-0.17307692307692293,0.2884615384615382,3,0.47
+quality_coverage,30.0,48.0,18.0,3.0,75.0,15,2.27
