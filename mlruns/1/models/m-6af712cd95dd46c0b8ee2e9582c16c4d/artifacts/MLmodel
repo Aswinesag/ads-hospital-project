@@ -1,0 +1,25 @@
+artifact_path: file:D:/Hospital_Quality_Project/mlruns/1/models/m-6af712cd95dd46c0b8ee2e9582c16c4d/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - numpy.dtype
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.16.1
+model_id: m-6af712cd95dd46c0b8ee2e9582c16c4d
+model_size_bytes: 565276
+model_uuid: m-6af712cd95dd46c0b8ee2e9582c16c4d
+prompts: null
+run_id: 6ee471c262434c28b6c6eea43c109a58
+utc_time_created: '2026-09-19 08:23:35.027584'

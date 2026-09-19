@@ -1,0 +1,2 @@
+selected_model,stage,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,training_samples,test_samples,feature_count,random_state,test_size,model_path
+Logistic Regression,Baseline,0.6833333333333333,0.654040404040404,0.6558176100628931,0.6474531245173447,0.671006703116795,476,120,34,42,0.2,models\best_hospital_quality_model.pkl
