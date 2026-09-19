@@ -1,0 +1,478 @@
+rank,feature_name,mean_absolute_shap
+1,num__patient_survey_rating,0.6730656996821993
+2,num__mort_better,0.2316000229172224
+3,num__total_worse_measures,0.22868584571892037
+4,num__mort_no_different,0.22730029117949282
+5,num__quality_coverage,0.22577156549540206
+6,num__quality_balance_score,0.22025011311457152
+7,num__readm_worse,0.19104204392298058
+8,num__mort_worse,0.1793393628261737
+9,num__worse_measure_ratio,0.17171728734753386
+10,num__readm_better,0.16261238705192524
+11,num__better_measure_ratio,0.15184833007581997
+12,num__total_better_measures,0.12977795146144802
+13,num__safety_worse,0.12836723539721384
+14,cat__hospital_ownership_Voluntary non-profit - Private,0.1252536506959105
+15,num__facility_safety_measures,0.12123808770548196
+16,num__affiliated_clinicians,0.12024586241347289
+17,num__readm_no_different,0.10023815521495637
+18,cat__hospital_size_category_Large,0.09399036338686625
+19,num__safety_no_different,0.0903795102439225
+20,num__facility_te_measures,0.08533312811288167
+21,cat__state_CA,0.07994935880288133
+22,cat__state_NJ,0.07630633421266925
+23,cat__state_TX,0.07520339363175432
+24,cat__hospital_size_category_Small,0.07505083863229743
+25,cat__hospital_ownership_Voluntary non-profit - Church,0.0729806351411348
+26,num__safety_better,0.072550150533598
+27,num__facility_mort_measures,0.07252797617349359
+28,cat__hospital_size_category_Medium,0.07104973214799425
+29,num__facility_readm_measures,0.06860286419893494
+30,num__facility_patient_exp_measures,0.05453697471560875
+31,cat__hospital_ownership_Proprietary,0.0519450939972116
+32,cat__state_NY,0.04766131587970435
+33,cat__hospital_ownership_Government - Hospital District or Authority,0.04678427097034039
+34,cat__hospital_ownership_Government - Local,0.04041163661492228
+35,cat__county_HARRIS,0.03948542086736346
+36,cat__county_LOS ANGELES,0.03451472439475893
+37,cat__county_ORANGE,0.03119417362098822
+38,cat__hospital_ownership_Voluntary non-profit - Other,0.021527278609947215
+39,cat__county_SAN BERNARDINO,0.020644898745294474
+40,cat__city_Mesa,0.019213680422646543
+41,cat__city_Brooklyn,0.018285001415503696
+42,cat__county_KINGS,0.018285001415503696
+43,cat__state_AZ,0.01785166083437608
+44,cat__county_MARICOPA,0.01657689733616133
+45,cat__county_RIVERSIDE,0.01494394040618918
+46,cat__county_ALAMEDA,0.01466631316230573
+47,cat__county_HUDSON,0.014084096522813354
+48,cat__state_PA,0.012624105501356262
+49,cat__state_NC,0.011970260886481295
+50,cat__state_CT,0.01183162237121868
+51,cat__city_Houston,0.011385279251783408
+52,cat__county_SACRAMENTO,0.0110357552686562
+53,cat__hospital_type_Acute Care Hospitals,0.009987439449372418
+54,cat__city_Los Angeles,0.009754245223328541
+55,cat__emergency_services_No,0.009691123762510436
+56,cat__state_NM,0.009547412604749155
+57,cat__city_Phoenix,0.009466048757942694
+58,cat__hospital_size_category_Unknown,0.009334569918742826
+59,cat__emergency_services_Yes,0.00894604995876979
+60,cat__county_TRAVIS,0.008561615227709655
+61,cat__county_HARTFORD,0.008043263588750134
+62,cat__hospital_type_Critical Access Hospitals,0.007895747838320588
+63,cat__county_FAIRFIELD,0.007489481393188902
+64,cat__city_Glendale,0.007445457435367309
+65,cat__city_Austin,0.00742006653068171
+66,cat__county_BRAZOS,0.007027468773966931
+67,cat__hospital_ownership_Veterans Health Administration,0.0069957393161181654
+68,cat__hospital_type_Acute Care - Veterans Administration,0.0069957393161181654
+69,cat__county_SUFFOLK,0.0067331407049361705
+70,cat__county_UNION,0.006459501421143184
+71,cat__state_SC,0.006440196540701136
+72,cat__county_PHILADELPHIA,0.006193835296248012
+73,cat__city_Philadelphia,0.006193835296248012
+74,cat__county_NASSAU,0.006158893662202125
+75,cat__county_JEFFERSON,0.005949687506505429
+76,cat__county_SAN MATEO,0.0058516223004983405
+77,cat__city_San Antonio,0.005833638266724374
+78,cat__city_Murrieta,0.005811527849909951
+79,cat__county_OCEAN,0.0057469098642424915
+80,cat__county_NAPA,0.005318324493143361
+81,cat__county_MONMOUTH,0.005238934490370398
+82,cat__city_San Bernardino,0.005209474550187166
+83,cat__city_Jersey City,0.005157871266805128
+84,cat__county_BEXAR,0.005130123686921302
+85,cat__county_COLORADO,0.004793636210280933
+86,cat__city_Columbus,0.004793636210280933
+87,cat__city_Chino,0.0047064405379022576
+88,cat__county_MIDDLESEX,0.004691361526004675
+89,cat__county_MARIN,0.004649632018463358
+90,cat__county_PIMA,0.004539527966510529
+91,cat__county_NEW HAVEN,0.004529251559969558
+92,cat__city_Petaluma,0.004477228347584956
+93,cat__city_Montclair,0.00426658515544144
+94,cat__city_Bryan,0.00398847909482734
+95,cat__county_MERCER,0.003963370736618633
+96,cat__city_LA Palma,0.0038399031317711673
+97,cat__city_Beaumont,0.0038069203204441175
+98,cat__county_BUCKS,0.0037436238193492817
+99,cat__hospital_ownership_Government - State,0.003675587757802992
+100,cat__county_SANTA CLARA,0.0036695490660604876
+101,cat__county_SAN JOAQUIN,0.0035993781107949985
+102,cat__city_Rahway,0.0035834139950309176
+103,cat__county_CHEROKEE,0.003567591701229712
+104,cat__city_Gaffney,0.003567591701229712
+105,cat__county_QUEENS,0.003555823827342502
+106,cat__city_San Francisco,0.003542235577720408
+107,cat__county_SAN FRANCISCO,0.003542235577720408
+108,cat__city_Waterbury,0.0035328219024022057
+109,cat__city_Scranton,0.00346850996806089
+110,cat__county_ROWAN,0.00344925044903167
+111,cat__city_Salisbury,0.00344925044903167
+112,cat__county_LACKAWANNA,0.0034476174970546076
+113,cat__county_WESTCHESTER,0.003376745491361279
+114,cat__county_STANISLAUS,0.0033236093571095593
+115,cat__city_Stockton,0.0032956592836160337
+116,cat__city_Mather,0.003229701771828458
+117,cat__city_Sun City,0.003210325848306052
+118,cat__city_Carmichael,0.0031667184080341015
+119,cat__hospital_ownership_Physician,0.003152891763565925
+120,cat__city_Carmel,0.003123391794719494
+121,cat__county_PUTNAM,0.003123391794719494
+122,cat__county_ESSEX,0.0031045215999491245
+123,cat__city_Pasadena,0.003025987863486807
+124,cat__city_Chandler,0.0029887634580722665
+125,cat__county_FORT BEND,0.0029612027284765235
+126,cat__city_Saint Helena,0.002927518069620188
+127,cat__city_Alhambra,0.0028815912812016164
+128,cat__county_CONTRA COSTA,0.0028333366935344327
+129,cat__city_New Brunswick,0.0028321994028012937
+130,cat__county_VENTURA,0.002774742684362387
+131,cat__city_Norwalk,0.0027637087782828485
+132,cat__city_Deming,0.002758646635641846
+133,cat__county_LUNA,0.002758646635641846
+134,cat__city_Downey,0.0027479901840420764
+135,cat__county_BRAZORIA,0.0027356219428542584
+136,cat__city_Danbury,0.0026763744363192212
+137,cat__city_San Jose,0.002653846495541235
+138,cat__county_WILLIAMSON,0.0026527923825426796
+139,cat__county_BURLINGTON,0.002624494739774222
+140,cat__county_MATAGORDA,0.0025237490595017005
+141,cat__city_Bay City,0.0025237490595017005
+142,cat__city_Pearland,0.0023306980718799586
+143,cat__county_DONA ANA,0.002306802192560568
+144,cat__city_Las Cruces,0.002306802192560568
+145,cat__city_Salinas,0.0023063709315880743
+146,cat__city_Charlotte,0.002196905857804069
+147,cat__county_LINCOLN,0.002183505285296046
+148,cat__city_Lincolnton,0.002183505285296046
+149,cat__city_Anaheim,0.0021520221571700187
+150,cat__city_Cedar Park,0.002139391682403883
+151,cat__city_East Stroudsburg,0.002131686058158872
+152,cat__county_BERGEN,0.002095703992656098
+153,cat__county_HAYS,0.002010002409225398
+154,cat__city_Modesto,0.002003830093496112
+155,cat__city_Nyack,0.001934975718909582
+156,cat__city_Loma Linda,0.001892290907267022
+157,cat__county_ROCKLAND,0.0018874412562615045
+158,cat__city_Scottsdale,0.0018853443627106765
+159,cat__city_Atlantic City,0.001843348314996649
+160,cat__county_ATLANTIC,0.001843348314996649
+161,cat__city_Tucson,0.0017951919418160676
+162,cat__county_MECKLENBURG,0.001794363573618694
+163,cat__city_College Station,0.001769386553732899
+164,cat__city_Oakland,0.0017635340918911518
+165,cat__county_MONTGOMERY,0.001709912518091709
+166,cat__city_Valhalla,0.0016964708258628246
+167,cat__county_MONTEREY,0.0016731007700112692
+168,cat__city_Patchogue,0.0016520865592216142
+169,cat__city_Hoboken,0.001642835539914397
+170,cat__county_BRONX,0.0016323228742209526
+171,cat__city_Bronx,0.0016323228742209526
+172,cat__city_Long Beach,0.001596362503845337
+173,cat__city_Whittier,0.0015828023226399895
+174,cat__city_Newark,0.0015778881489905798
+175,cat__city_Floresville,0.0015740433027126885
+176,cat__county_WILSON,0.0015740433027126885
+177,cat__city_Hollywood,0.0015578683535223403
+178,cat__city_Bayonne,0.0015463936810173298
+179,cat__county_PASSAIC,0.0015353090366067522
+180,cat__city_Hamilton,0.0015219113099618814
+181,cat__city_Hartford,0.0015010248131132624
+182,cat__city_The Woodlands,0.001485305609644517
+183,cat__county_LAVACA,0.0014255072402575497
+184,cat__city_Montebello,0.0013309480331197474
+185,cat__city_Goodyear,0.0013184759445687157
+186,cat__city_Ventura,0.0012877441704421632
+187,cat__city_San Marcos,0.0012765586739186636
+188,cat__city_Fremont,0.0012641142483025794
+189,cat__city_Gardena,0.001244115089894513
+190,cat__city_Orange,0.0012424394524460495
+191,cat__city_Bristol,0.0012375988182319888
+192,cat__city_Concord,0.0012321786780233781
+193,cat__city_Chester,0.0012041194415784058
+194,cat__city_New York,0.0011636003567702003
+195,cat__county_NEW YORK,0.0011636003567702003
+196,cat__city_Riverside,0.0011605246316384852
+197,cat__city_Conroe,0.001125335310347881
+198,cat__city_Livingston,0.0010915318097752347
+199,cat__county_SANTA CRUZ,0.0010298920334447157
+200,cat__county_GASTON,0.0010144361525268922
+201,cat__city_Gastonia,0.0010144361525268922
+202,cat__county_CHESTER,0.001007892364906338
+203,cat__city_Santa Barbara,0.0009734869869733396
+204,cat__county_SANTA BARBARA,0.0009734869869733396
+205,cat__city_Sacramento,0.0009657325579159136
+206,cat__city_Sugar Land,0.0008754955115355276
+207,cat__city_Tracy,0.0008140745578010921
+208,cat__county_DELAWARE,0.0008093140676678219
+209,cat__county_CATAWBA,0.000808269699540446
+210,cat__city_Hickory,0.000808269699540446
+211,cat__county_SAN DIEGO,0.000791859372301648
+212,cat__city_San Dimas,0.0007721243140097495
+213,cat__city_Harris,0.0007556847645142719
+214,cat__county_SULLIVAN,0.0007556847645142719
+215,cat__city_Laguna Hills,0.0007505670967430648
+216,cat__county_AMADOR,0.000648543373879623
+217,cat__city_Jackson,0.000648543373879623
+218,cat__county_SONOMA,0.00062278494090514
+219,cat__county_MONROE,0.0005992091790171768
+220,cat__city_French Camp,0.0005803441603901844
+221,cat__city_Greenwich,0.0005692797729622023
+222,cat__city_Santa Cruz,0.0005149460167223578
+223,cat__county_MORRIS,0.00045417110287194557
+224,cat__city_Fredericksburg,0.0004448014273563884
+225,cat__county_GILLESPIE,0.0004448014273563884
+226,cat__city_Brick,0.00041598522662004224
+227,cat__city_Upland,0.00040465703383391093
+228,cat__city_Quakertown,0.0003647926336688062
+229,cat__city_Redwood City,0.0003296968339180536
+230,cat__county_DUTCHESS,0.0002875186252127956
+231,cat__county_NORTHAMPTON,0.00027826107664103523
+232,cat__city_Denville,0.00024923714879298046
+233,cat__city_Mount Kisco,0.0001943936230713312
+234,cat__city_Rhinebeck,0.00015826713314465846
+235,cat__city_Bethlehem,0.00015317123484827618
+236,cat__city_Greenbrae,0.00011118531184782301
+237,cat__city_Irvine,6.381302988949502e-05
+238,cat__city_Newport Beach,3.4139611889838554e-05
+239,cat__city_Baldwin Park,0.0
+240,cat__city_Baytown,0.0
+241,cat__city_Banning,0.0
+242,cat__city_Belleville,0.0
+243,cat__city_Bensalem,0.0
+244,cat__city_Bethpage,0.0
+245,cat__city_Bridgeport,0.0
+246,cat__county_RICHMOND,0.0
+247,cat__county_SALEM,0.0
+248,cat__county_SOLANO,0.0
+249,cat__city_Barstow,0.0
+250,cat__city_Apache Junction,0.0
+251,cat__city_Apple Valley,0.0
+252,cat__city_Alamogordo,0.0
+253,cat__city_Albemarle,0.0
+254,cat__county_WARREN,0.0
+255,cat__county_VICTORIA,0.0
+256,cat__county_WHARTON,0.0
+257,cat__city_Palm Springs,0.0
+258,cat__city_Panorama City,0.0
+259,cat__city_Paoli,0.0
+260,cat__city_Palmdale,0.0
+261,cat__city_Palo Alto,0.0
+262,cat__city_Payson,0.0
+263,cat__city_Pennington,0.0
+264,cat__city_Perth Amboy,0.0
+265,cat__city_Phillipsburg,0.0
+266,cat__city_Phoenixville,0.0
+267,cat__city_Plainsboro,0.0
+268,cat__city_Paramus,0.0
+269,cat__city_Paterson,0.0
+270,cat__city_Pleasanton,0.0
+271,cat__city_Plainview,0.0
+272,cat__city_Pomona,0.0
+273,cat__city_Port Arthur,0.0
+274,cat__city_Pottstown,0.0
+275,cat__city_Prescott,0.0
+276,cat__city_Port Jefferson,0.0
+277,cat__city_Port Jervis,0.0
+278,cat__city_Redlands,0.0
+279,cat__city_Queen Creek,0.0
+280,cat__city_Richmond,0.0
+281,cat__county_SOMERSET,0.0
+282,cat__county_STANLY,0.0
+283,cat__county_SUSSEX,0.0
+284,cat__city_Allentown,0.0
+285,cat__city_Antioch,0.0
+286,cat__city_Royersford,0.0
+287,cat__city_Round Rock,0.0
+288,cat__city_San Andreas,0.0
+289,cat__city_San Gabriel,0.0
+290,cat__city_Santa Ana,0.0
+291,cat__city_Santa Clara,0.0
+292,cat__city_San Pedro,0.0
+293,cat__city_San Rafael,0.0
+294,cat__city_Secaucus,0.0
+295,cat__city_Sellersville,0.0
+296,cat__city_Sharon,0.0
+297,cat__city_Shelby,0.0
+298,cat__city_Sherman Oaks,0.0
+299,cat__city_Simi Valley,0.0
+300,cat__city_Santa Monica,0.0
+301,cat__city_Santa Rosa,0.0
+302,cat__city_Somerville,0.0
+303,cat__city_Sonoma,0.0
+304,cat__city_South El Monte,0.0
+305,cat__city_South San Francisco,0.0
+306,cat__city_Stamford,0.0
+307,cat__city_Stanford,0.0
+308,cat__city_Staten Island,0.0
+309,cat__city_Statesville,0.0
+310,cat__city_Stony Brook,0.0
+311,cat__city_Stratford,0.0
+312,cat__city_Stroudsburg,0.0
+313,cat__city_Suffern,0.0
+314,cat__city_Summit,0.0
+315,cat__city_Sylmar,0.0
+316,cat__city_Sleepy Hollow,0.0
+317,cat__city_Smithtown,0.0
+318,cat__city_Tehachapi,0.0
+319,cat__city_Tarzana,0.0
+320,cat__city_Torrance,0.0
+321,cat__city_Temecula,0.0
+322,cat__city_Travis AFB,0.0
+323,cat__city_Monterey Park,0.0
+324,cat__city_Montrose,0.0
+325,cat__city_Thousand Oaks,0.0
+326,cat__city_Mooresville,0.0
+327,cat__city_Moreno Valley,0.0
+328,cat__city_Morristown,0.0
+329,cat__city_Mount Holly,0.0
+330,cat__city_Mount Vernon,0.0
+331,cat__city_Mountain View,0.0
+332,cat__city_Nassau Bay,0.0
+333,cat__city_Torrington,0.0
+334,cat__city_Neptune,0.0
+335,cat__city_New Britain,0.0
+336,cat__city_New Hyde Park,0.0
+337,cat__city_New Haven,0.0
+338,cat__city_New Rochelle,0.0
+339,cat__city_Newburgh,0.0
+340,cat__city_Newton,0.0
+341,cat__city_Norristown,0.0
+342,cat__city_North Bergen,0.0
+343,cat__city_Northridge,0.0
+344,cat__city_Oceanside,0.0
+345,cat__city_Riverhead,0.0
+346,cat__city_Rock Hill,0.0
+347,cat__city_Roseville,0.0
+348,cat__city_Arcadia,0.0
+349,cat__city_Abington,0.0
+350,cat__city_Vallejo,0.0
+351,cat__city_Vacaville,0.0
+352,cat__city_Turlock,0.0
+353,cat__city_Oxnard,0.0
+354,cat__city_Oro Valley,0.0
+355,cat__city_Walnut Creek,0.0
+356,cat__city_Van Nuys,0.0
+357,cat__city_Victoria,0.0
+358,cat__city_West Haven,0.0
+359,cat__city_West Islip,0.0
+360,cat__city_White Plains,0.0
+361,cat__city_Willingboro,0.0
+362,cat__city_Woodland,0.0
+363,cat__city_Warwick,0.0
+364,cat__city_Victorville,0.0
+365,cat__city_Voorhees,0.0
+366,cat__city_Kingwood,0.0
+367,cat__city_LA Jolla,0.0
+368,cat__city_Lake Jackson,0.0
+369,cat__city_Lakeport,0.0
+370,cat__city_Lakewood,0.0
+371,cat__city_Lancaster,0.0
+372,cat__city_Lansdale,0.0
+373,cat__city_Lodi,0.0
+374,cat__city_Los Alamitos,0.0
+375,cat__city_Los Banos,0.0
+376,cat__city_Lynwood,0.0
+377,cat__city_MacUngie,0.0
+378,cat__city_Manhasset,0.0
+379,cat__city_Woodland Hills,0.0
+380,cat__city_Webster,0.0
+381,cat__city_West Chester,0.0
+382,cat__city_Martinez,0.0
+383,cat__city_Marble Falls,0.0
+384,cat__city_Monterey,0.0
+385,cat__city_Meadowbrook,0.0
+386,cat__hospital_ownership_Department of Defense,0.0
+387,cat__hospital_ownership_Government - Federal,0.0
+388,cat__county_ATASCOSA,0.0
+389,cat__city_Mission Viejo,0.0
+390,cat__county_BURNET,0.0
+391,cat__city_Glen Cove,0.0
+392,cat__city_Glendora,0.0
+393,cat__city_Globe,0.0
+394,cat__city_Hackensack,0.0
+395,cat__city_Hackettstown,0.0
+396,cat__city_Hallettsville,0.0
+397,cat__hospital_type_Acute Care - Department of Defense,0.0
+398,cat__city_Harbor City,0.0
+399,cat__city_Hayward,0.0
+400,cat__city_Humble,0.0
+401,cat__city_Holmdel,0.0
+402,cat__city_Huntersville,0.0
+403,cat__city_Huntington,0.0
+404,cat__city_Huntington Beach,0.0
+405,cat__city_Huntington Park,0.0
+406,cat__city_Jamaica,0.0
+407,cat__city_Jourdanton,0.0
+408,cat__city_Katy,0.0
+409,cat__city_Kerrville,0.0
+410,cat__county_CABARRUS,0.0
+411,cat__city_Manteca,0.0
+412,cat__city_Wynnewood,0.0
+413,cat__city_Yonkers,0.0
+414,cat__county_CLEVELAND,0.0
+415,cat__county_CAMDEN,0.0
+416,cat__county_CALAVERAS,0.0
+417,cat__county_DE WITT,0.0
+418,cat__county_IREDELL,0.0
+419,cat__county_KERN,0.0
+420,cat__county_EL PASO,0.0
+421,cat__county_GILA,0.0
+422,cat__county_LANCASTER,0.0
+423,cat__city_Derby,0.0
+424,cat__city_Dickson City,0.0
+425,cat__city_Doylestown,0.0
+426,cat__city_East Norriton,0.0
+427,cat__city_East Orange,0.0
+428,cat__county_KERR,0.0
+429,cat__county_LAKE,0.0
+430,cat__city_Elizabeth,0.0
+431,cat__city_Elmer,0.0
+432,cat__city_Encino,0.0
+433,cat__city_Englewood,0.0
+434,cat__city_Escondido,0.0
+435,cat__city_Fairfield,0.0
+436,cat__city_Far Rockaway,0.0
+437,cat__city_Farmington,0.0
+438,cat__city_Flushing,0.0
+439,cat__city_Folsom,0.0
+440,cat__city_Fort Sam Houston,0.0
+441,cat__city_Fountain Valley,0.0
+442,cat__city_Freehold,0.0
+443,cat__city_Fullerton,0.0
+444,cat__city_El Campo,0.0
+445,cat__city_El Paso,0.0
+446,cat__city_Gilbert,0.0
+447,cat__city_Garden Grove,0.0
+448,cat__city_Camden,0.0
+449,cat__city_Bryn Mawr,0.0
+450,cat__city_Casa Grande,0.0
+451,cat__city_Castro Valley,0.0
+452,cat__city_Clearlake,0.0
+453,cat__city_Burnet,0.0
+454,cat__city_Colton,0.0
+455,cat__city_Corona,0.0
+456,cat__city_Cottonwood,0.0
+457,cat__city_Cortlandt Manor,0.0
+458,cat__city_Covina,0.0
+459,cat__city_Cuero,0.0
+460,cat__city_Daly City,0.0
+461,cat__city_Camp Pendleton,0.0
+462,cat__city_Davis,0.0
+463,cat__county_LEHIGH,0.0
+464,cat__county_LITCHFIELD,0.0
+465,cat__county_MERCED,0.0
+466,cat__county_OTERO,0.0
+467,cat__county_PINAL,0.0
+468,cat__county_PLACER,0.0
+469,cat__county_POLK,0.0
+470,num__te_group_measure_count,0.0
+471,cat__county_YAVAPAI,0.0
+472,cat__county_YOLO,0.0
+473,cat__county_YORK,0.0
+474,num__patient_exp_group_measure_count,0.0
+475,num__readm_group_measure_count,0.0
+476,num__safety_group_measure_count,0.0
+477,num__mort_group_measure_count,0.0

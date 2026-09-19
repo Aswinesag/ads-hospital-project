@@ -1,0 +1,478 @@
+feature_name
+num__patient_survey_rating
+num__affiliated_clinicians
+num__mort_group_measure_count
+num__facility_mort_measures
+num__mort_better
+num__mort_no_different
+num__mort_worse
+num__safety_group_measure_count
+num__facility_safety_measures
+num__safety_better
+num__safety_no_different
+num__safety_worse
+num__readm_group_measure_count
+num__facility_readm_measures
+num__readm_better
+num__readm_no_different
+num__readm_worse
+num__patient_exp_group_measure_count
+num__facility_patient_exp_measures
+num__te_group_measure_count
+num__facility_te_measures
+num__total_better_measures
+num__total_worse_measures
+num__quality_balance_score
+num__better_measure_ratio
+num__worse_measure_ratio
+num__quality_coverage
+cat__city_Abington
+cat__city_Alamogordo
+cat__city_Albemarle
+cat__city_Alhambra
+cat__city_Allentown
+cat__city_Anaheim
+cat__city_Antioch
+cat__city_Apache Junction
+cat__city_Apple Valley
+cat__city_Arcadia
+cat__city_Atlantic City
+cat__city_Austin
+cat__city_Baldwin Park
+cat__city_Banning
+cat__city_Barstow
+cat__city_Bay City
+cat__city_Bayonne
+cat__city_Baytown
+cat__city_Beaumont
+cat__city_Belleville
+cat__city_Bensalem
+cat__city_Bethlehem
+cat__city_Bethpage
+cat__city_Brick
+cat__city_Bridgeport
+cat__city_Bristol
+cat__city_Bronx
+cat__city_Brooklyn
+cat__city_Bryan
+cat__city_Bryn Mawr
+cat__city_Burnet
+cat__city_Camden
+cat__city_Camp Pendleton
+cat__city_Carmel
+cat__city_Carmichael
+cat__city_Casa Grande
+cat__city_Castro Valley
+cat__city_Cedar Park
+cat__city_Chandler
+cat__city_Charlotte
+cat__city_Chester
+cat__city_Chino
+cat__city_Clearlake
+cat__city_College Station
+cat__city_Colton
+cat__city_Columbus
+cat__city_Concord
+cat__city_Conroe
+cat__city_Corona
+cat__city_Cortlandt Manor
+cat__city_Cottonwood
+cat__city_Covina
+cat__city_Cuero
+cat__city_Daly City
+cat__city_Danbury
+cat__city_Davis
+cat__city_Deming
+cat__city_Denville
+cat__city_Derby
+cat__city_Dickson City
+cat__city_Downey
+cat__city_Doylestown
+cat__city_East Norriton
+cat__city_East Orange
+cat__city_East Stroudsburg
+cat__city_El Campo
+cat__city_El Paso
+cat__city_Elizabeth
+cat__city_Elmer
+cat__city_Encino
+cat__city_Englewood
+cat__city_Escondido
+cat__city_Fairfield
+cat__city_Far Rockaway
+cat__city_Farmington
+cat__city_Floresville
+cat__city_Flushing
+cat__city_Folsom
+cat__city_Fort Sam Houston
+cat__city_Fountain Valley
+cat__city_Fredericksburg
+cat__city_Freehold
+cat__city_Fremont
+cat__city_French Camp
+cat__city_Fullerton
+cat__city_Gaffney
+cat__city_Garden Grove
+cat__city_Gardena
+cat__city_Gastonia
+cat__city_Gilbert
+cat__city_Glen Cove
+cat__city_Glendale
+cat__city_Glendora
+cat__city_Globe
+cat__city_Goodyear
+cat__city_Greenbrae
+cat__city_Greenwich
+cat__city_Hackensack
+cat__city_Hackettstown
+cat__city_Hallettsville
+cat__city_Hamilton
+cat__city_Harbor City
+cat__city_Harris
+cat__city_Hartford
+cat__city_Hayward
+cat__city_Hickory
+cat__city_Hoboken
+cat__city_Hollywood
+cat__city_Holmdel
+cat__city_Houston
+cat__city_Humble
+cat__city_Huntersville
+cat__city_Huntington
+cat__city_Huntington Beach
+cat__city_Huntington Park
+cat__city_Irvine
+cat__city_Jackson
+cat__city_Jamaica
+cat__city_Jersey City
+cat__city_Jourdanton
+cat__city_Katy
+cat__city_Kerrville
+cat__city_Kingwood
+cat__city_LA Jolla
+cat__city_LA Palma
+cat__city_Laguna Hills
+cat__city_Lake Jackson
+cat__city_Lakeport
+cat__city_Lakewood
+cat__city_Lancaster
+cat__city_Lansdale
+cat__city_Las Cruces
+cat__city_Lincolnton
+cat__city_Livingston
+cat__city_Lodi
+cat__city_Loma Linda
+cat__city_Long Beach
+cat__city_Los Alamitos
+cat__city_Los Angeles
+cat__city_Los Banos
+cat__city_Lynwood
+cat__city_MacUngie
+cat__city_Manhasset
+cat__city_Manteca
+cat__city_Marble Falls
+cat__city_Martinez
+cat__city_Mather
+cat__city_Meadowbrook
+cat__city_Mesa
+cat__city_Mission Viejo
+cat__city_Modesto
+cat__city_Montclair
+cat__city_Montebello
+cat__city_Monterey
+cat__city_Monterey Park
+cat__city_Montrose
+cat__city_Mooresville
+cat__city_Moreno Valley
+cat__city_Morristown
+cat__city_Mount Holly
+cat__city_Mount Kisco
+cat__city_Mount Vernon
+cat__city_Mountain View
+cat__city_Murrieta
+cat__city_Nassau Bay
+cat__city_Neptune
+cat__city_New Britain
+cat__city_New Brunswick
+cat__city_New Haven
+cat__city_New Hyde Park
+cat__city_New Rochelle
+cat__city_New York
+cat__city_Newark
+cat__city_Newburgh
+cat__city_Newport Beach
+cat__city_Newton
+cat__city_Norristown
+cat__city_North Bergen
+cat__city_Northridge
+cat__city_Norwalk
+cat__city_Nyack
+cat__city_Oakland
+cat__city_Oceanside
+cat__city_Orange
+cat__city_Oro Valley
+cat__city_Oxnard
+cat__city_Palm Springs
+cat__city_Palmdale
+cat__city_Palo Alto
+cat__city_Panorama City
+cat__city_Paoli
+cat__city_Paramus
+cat__city_Pasadena
+cat__city_Patchogue
+cat__city_Paterson
+cat__city_Payson
+cat__city_Pearland
+cat__city_Pennington
+cat__city_Perth Amboy
+cat__city_Petaluma
+cat__city_Philadelphia
+cat__city_Phillipsburg
+cat__city_Phoenix
+cat__city_Phoenixville
+cat__city_Plainsboro
+cat__city_Plainview
+cat__city_Pleasanton
+cat__city_Pomona
+cat__city_Port Arthur
+cat__city_Port Jefferson
+cat__city_Port Jervis
+cat__city_Pottstown
+cat__city_Prescott
+cat__city_Quakertown
+cat__city_Queen Creek
+cat__city_Rahway
+cat__city_Redlands
+cat__city_Redwood City
+cat__city_Rhinebeck
+cat__city_Richmond
+cat__city_Riverhead
+cat__city_Riverside
+cat__city_Rock Hill
+cat__city_Roseville
+cat__city_Round Rock
+cat__city_Royersford
+cat__city_Sacramento
+cat__city_Saint Helena
+cat__city_Salinas
+cat__city_Salisbury
+cat__city_San Andreas
+cat__city_San Antonio
+cat__city_San Bernardino
+cat__city_San Dimas
+cat__city_San Francisco
+cat__city_San Gabriel
+cat__city_San Jose
+cat__city_San Marcos
+cat__city_San Pedro
+cat__city_San Rafael
+cat__city_Santa Ana
+cat__city_Santa Barbara
+cat__city_Santa Clara
+cat__city_Santa Cruz
+cat__city_Santa Monica
+cat__city_Santa Rosa
+cat__city_Scottsdale
+cat__city_Scranton
+cat__city_Secaucus
+cat__city_Sellersville
+cat__city_Sharon
+cat__city_Shelby
+cat__city_Sherman Oaks
+cat__city_Simi Valley
+cat__city_Sleepy Hollow
+cat__city_Smithtown
+cat__city_Somerville
+cat__city_Sonoma
+cat__city_South El Monte
+cat__city_South San Francisco
+cat__city_Stamford
+cat__city_Stanford
+cat__city_Staten Island
+cat__city_Statesville
+cat__city_Stockton
+cat__city_Stony Brook
+cat__city_Stratford
+cat__city_Stroudsburg
+cat__city_Suffern
+cat__city_Sugar Land
+cat__city_Summit
+cat__city_Sun City
+cat__city_Sylmar
+cat__city_Tarzana
+cat__city_Tehachapi
+cat__city_Temecula
+cat__city_The Woodlands
+cat__city_Thousand Oaks
+cat__city_Torrance
+cat__city_Torrington
+cat__city_Tracy
+cat__city_Travis AFB
+cat__city_Tucson
+cat__city_Turlock
+cat__city_Upland
+cat__city_Vacaville
+cat__city_Valhalla
+cat__city_Vallejo
+cat__city_Van Nuys
+cat__city_Ventura
+cat__city_Victoria
+cat__city_Victorville
+cat__city_Voorhees
+cat__city_Walnut Creek
+cat__city_Warwick
+cat__city_Waterbury
+cat__city_Webster
+cat__city_West Chester
+cat__city_West Haven
+cat__city_West Islip
+cat__city_White Plains
+cat__city_Whittier
+cat__city_Willingboro
+cat__city_Woodland
+cat__city_Woodland Hills
+cat__city_Wynnewood
+cat__city_Yonkers
+cat__state_AZ
+cat__state_CA
+cat__state_CT
+cat__state_NC
+cat__state_NJ
+cat__state_NM
+cat__state_NY
+cat__state_PA
+cat__state_SC
+cat__state_TX
+cat__hospital_type_Acute Care - Department of Defense
+cat__hospital_type_Acute Care - Veterans Administration
+cat__hospital_type_Acute Care Hospitals
+cat__hospital_type_Critical Access Hospitals
+cat__emergency_services_No
+cat__emergency_services_Yes
+cat__hospital_ownership_Department of Defense
+cat__hospital_ownership_Government - Federal
+cat__hospital_ownership_Government - Hospital District or Authority
+cat__hospital_ownership_Government - Local
+cat__hospital_ownership_Government - State
+cat__hospital_ownership_Physician
+cat__hospital_ownership_Proprietary
+cat__hospital_ownership_Veterans Health Administration
+cat__hospital_ownership_Voluntary non-profit - Church
+cat__hospital_ownership_Voluntary non-profit - Other
+cat__hospital_ownership_Voluntary non-profit - Private
+cat__county_ALAMEDA
+cat__county_AMADOR
+cat__county_ATASCOSA
+cat__county_ATLANTIC
+cat__county_BERGEN
+cat__county_BEXAR
+cat__county_BRAZORIA
+cat__county_BRAZOS
+cat__county_BRONX
+cat__county_BUCKS
+cat__county_BURLINGTON
+cat__county_BURNET
+cat__county_CABARRUS
+cat__county_CALAVERAS
+cat__county_CAMDEN
+cat__county_CATAWBA
+cat__county_CHEROKEE
+cat__county_CHESTER
+cat__county_CLEVELAND
+cat__county_COLORADO
+cat__county_CONTRA COSTA
+cat__county_DE WITT
+cat__county_DELAWARE
+cat__county_DONA ANA
+cat__county_DUTCHESS
+cat__county_EL PASO
+cat__county_ESSEX
+cat__county_FAIRFIELD
+cat__county_FORT BEND
+cat__county_GASTON
+cat__county_GILA
+cat__county_GILLESPIE
+cat__county_HARRIS
+cat__county_HARTFORD
+cat__county_HAYS
+cat__county_HUDSON
+cat__county_IREDELL
+cat__county_JEFFERSON
+cat__county_KERN
+cat__county_KERR
+cat__county_KINGS
+cat__county_LACKAWANNA
+cat__county_LAKE
+cat__county_LANCASTER
+cat__county_LAVACA
+cat__county_LEHIGH
+cat__county_LINCOLN
+cat__county_LITCHFIELD
+cat__county_LOS ANGELES
+cat__county_LUNA
+cat__county_MARICOPA
+cat__county_MARIN
+cat__county_MATAGORDA
+cat__county_MECKLENBURG
+cat__county_MERCED
+cat__county_MERCER
+cat__county_MIDDLESEX
+cat__county_MONMOUTH
+cat__county_MONROE
+cat__county_MONTEREY
+cat__county_MONTGOMERY
+cat__county_MORRIS
+cat__county_NAPA
+cat__county_NASSAU
+cat__county_NEW HAVEN
+cat__county_NEW YORK
+cat__county_NORTHAMPTON
+cat__county_OCEAN
+cat__county_ORANGE
+cat__county_OTERO
+cat__county_PASSAIC
+cat__county_PHILADELPHIA
+cat__county_PIMA
+cat__county_PINAL
+cat__county_PLACER
+cat__county_POLK
+cat__county_PUTNAM
+cat__county_QUEENS
+cat__county_RICHMOND
+cat__county_RIVERSIDE
+cat__county_ROCKLAND
+cat__county_ROWAN
+cat__county_SACRAMENTO
+cat__county_SALEM
+cat__county_SAN BERNARDINO
+cat__county_SAN DIEGO
+cat__county_SAN FRANCISCO
+cat__county_SAN JOAQUIN
+cat__county_SAN MATEO
+cat__county_SANTA BARBARA
+cat__county_SANTA CLARA
+cat__county_SANTA CRUZ
+cat__county_SOLANO
+cat__county_SOMERSET
+cat__county_SONOMA
+cat__county_STANISLAUS
+cat__county_STANLY
+cat__county_SUFFOLK
+cat__county_SULLIVAN
+cat__county_SUSSEX
+cat__county_TRAVIS
+cat__county_UNION
+cat__county_VENTURA
+cat__county_VICTORIA
+cat__county_WARREN
+cat__county_WESTCHESTER
+cat__county_WHARTON
+cat__county_WILLIAMSON
+cat__county_WILSON
+cat__county_YAVAPAI
+cat__county_YOLO
+cat__county_YORK
+cat__hospital_size_category_Large
+cat__hospital_size_category_Medium
+cat__hospital_size_category_Small
+cat__hospital_size_category_Unknown

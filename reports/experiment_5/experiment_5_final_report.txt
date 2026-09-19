@@ -1,0 +1,260 @@
+
+======================================================================
+EXPERIMENT 5 - EXPLAINABLE AI AND FAIRNESS
+======================================================================
+
+AIM
+----------------------------------------------------------------------
+Apply Explainable AI methods (SHAP and LIME) to interpret the hospital
+quality classification model and evaluate prediction disparities using
+Fairlearn.
+
+MODEL
+----------------------------------------------------------------------
+Final model:
+Logistic Regression pipeline selected in Experiment 4.
+
+Task:
+Multiclass classification of hospitals into:
+
+- Low
+- Medium
+- High
+
+Dataset:
+596 labeled hospitals.
+
+Train/Test split:
+476 training hospitals
+120 testing hospitals
+
+Original predictors:
+34
+
+Transformed model features:
+477
+
+
+======================================================================
+STAGE 2 - SHAP EXPLAINABILITY
+======================================================================
+
+A SHAP LinearExplainer was applied to the Logistic Regression model.
+
+SHAP output:
+120 test samples
+477 transformed features
+3 classes
+
+The global feature importance was calculated using mean absolute SHAP
+values across test samples and classes.
+
+TOP 10 FEATURES
+----------------------------------------------------------------------
+
+ rank               feature_name  mean_absolute_shap
+    1 num__patient_survey_rating            0.673066
+    2           num__mort_better            0.231600
+    3  num__total_worse_measures            0.228686
+    4     num__mort_no_different            0.227300
+    5      num__quality_coverage            0.225772
+    6 num__quality_balance_score            0.220250
+    7           num__readm_worse            0.191042
+    8            num__mort_worse            0.179339
+    9   num__worse_measure_ratio            0.171717
+   10          num__readm_better            0.162612
+
+
+INTERPRETATION
+----------------------------------------------------------------------
+
+Patient survey rating had the largest mean absolute SHAP value among
+the transformed features. Mortality, readmission, quality-balance,
+quality-coverage, and better/worse-measure features also contributed
+substantially to model predictions.
+
+SHAP magnitude indicates the strength of a feature's contribution.
+It does not by itself establish whether a feature increases or
+decreases a predicted class.
+
+The model contains one-hot encoded categorical variables, so individual
+city, county, ownership, and hospital-size categories appear as
+separate transformed features.
+
+
+======================================================================
+STAGE 3 - LIME EXPLAINABILITY
+======================================================================
+
+LIME was used to explain individual predictions.
+
+Three representative correctly classified examples were selected:
+
+High:
+Actual = High
+Predicted = High
+
+Low:
+Actual = Low
+Predicted = Low
+
+Medium:
+Actual = Medium
+Predicted = Medium
+
+Ten local feature contributions were generated for each example,
+resulting in 30 explanation records.
+
+The High example showed a strong contribution from patient survey
+rating and mortality-related information.
+
+The Low example showed a strong contribution from a low standardized
+patient survey rating together with several geographic categorical
+features.
+
+The Medium example was substantially influenced by one-hot encoded
+city indicators.
+
+LIME explanations are local explanations for individual predictions
+and should not be interpreted as global feature importance.
+
+
+======================================================================
+STAGE 4 - FAIRNESS AUDIT
+======================================================================
+
+Sensitive/grouping attribute:
+State
+
+The dataset does not contain individual-level demographic attributes
+such as gender, race, or age. Therefore, the fairness analysis evaluates
+prediction disparities across geographic hospital groups rather than
+claiming protected-demographic fairness.
+
+Because the target is multiclass, each class was evaluated using a
+one-vs-rest formulation.
+
+
+FAIRNESS RESULTS
+----------------------------------------------------------------------
+
+ class  demographic_parity_difference  equalized_odds_difference  minimum_group_accuracy  maximum_group_accuracy  minimum_selection_rate  maximum_selection_rate  accuracy_difference  selection_rate_difference
+  High                       0.475000                        0.5                0.733333                     1.0                   0.125                0.600000             0.266667                   0.475000
+   Low                       0.533333                        1.0                0.725000                     1.0                   0.000                0.533333             0.275000                   0.533333
+Medium                       0.475000                        1.0                0.666667                     1.0                   0.025                0.500000             0.333333                   0.475000
+
+
+INTERPRETATION
+----------------------------------------------------------------------
+
+The audit identified measurable differences in prediction rates and
+error rates across states.
+
+Maximum demographic parity difference:
+0.5333
+
+Maximum equalized odds difference:
+1.0000
+
+These values indicate observed disparities across the geographic
+groups in this particular test sample.
+
+However, four states had fewer than 10 test hospitals:
+
+AZ, CT, NC, PA
+
+Therefore, the group-level fairness results for these states should
+not be generalized without a larger evaluation sample.
+
+
+======================================================================
+STAGE 5 - BIAS MITIGATION
+======================================================================
+
+
+BIAS MITIGATION STRATEGIES
+
+The fairness audit identified measurable disparities across
+state-based groups. Because the dataset does not contain
+individual-level demographic attributes such as gender or race,
+these findings represent geographic group disparities rather
+than protected-demographic fairness conclusions.
+
+The following mitigation strategies are proposed:
+
+1. PRE-PROCESSING
+   - Apply group-aware reweighting during model training.
+   - Consider resampling underrepresented geographic groups.
+   - Review whether geographic variables such as city, county,
+     and state should remain model predictors.
+
+2. IN-PROCESSING
+   - Apply fairness-constrained learning methods that optimize
+     predictive performance while controlling group disparities.
+
+3. POST-PROCESSING
+   - Evaluate group-aware classification threshold adjustments
+     using a validation dataset.
+   - Compare fairness metrics against predictive performance
+     before selecting any modified model.
+
+No mitigation was applied to the final model in this experiment.
+The reason is that several state groups have very small test
+sample sizes, making direct mitigation decisions from this test
+set unreliable. A larger validation dataset should be used before
+deploying a fairness-adjusted model.
+
+
+
+======================================================================
+LIMITATIONS
+======================================================================
+
+1. The dataset contains hospital-level geographic and organizational
+   attributes but does not contain individual demographic attributes
+   such as gender or race.
+
+2. Therefore, the fairness audit cannot establish fairness with respect
+   to those demographic attributes.
+
+3. The test set contains only 120 hospitals.
+
+4. Several geographic groups have small sample sizes.
+
+5. LIME explanations can be affected by the one-hot encoded geographic
+   variables.
+
+6. SHAP feature importance describes model contribution rather than
+   causation.
+
+7. Correlation or model explanation does not establish that a feature
+   causes hospital quality.
+
+
+======================================================================
+CONCLUSION
+======================================================================
+
+The experiment successfully applied SHAP and LIME to explain the final
+hospital quality classification model and Fairlearn to evaluate
+prediction disparities across available geographic groups.
+
+SHAP provided a global view of feature influence, with patient survey
+rating having the largest average contribution among the transformed
+features. LIME provided local explanations for individual High, Low,
+and Medium predictions.
+
+The Fairlearn audit identified measurable geographic disparities in
+prediction and error rates. However, small state-level sample sizes
+limit the strength of conclusions that can be drawn from these
+differences.
+
+The experiment therefore demonstrates both model interpretability and
+a structured fairness-audit workflow while explicitly documenting the
+limitations of the available fairness attributes and evaluation
+sample.
+
+
+======================================================================
+EXPERIMENT 5 COMPLETED
+======================================================================

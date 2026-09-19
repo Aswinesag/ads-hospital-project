@@ -1,0 +1,31 @@
+example_class,test_index,actual_class,predicted_class,feature,contribution
+High,0,High,High,num__patient_survey_rating > 0.14,0.4203203108065875
+High,0,High,High,num__mort_worse <= -0.23,0.274512654619735
+High,0,High,High,cat__county_NAPA <= 0.00,-0.2650752864706187
+High,0,High,High,cat__county_KERN <= 0.00,0.23809741806508256
+High,0,High,High,cat__county_LANCASTER <= 0.00,-0.23006285269864907
+High,0,High,High,cat__city_Chino <= 0.00,-0.22260347197594008
+High,0,High,High,cat__county_ROWAN <= 0.00,-0.1681627295144342
+High,0,High,High,cat__city_Mount Vernon <= 0.00,-0.16381177514411197
+High,0,High,High,cat__city_Walnut Creek <= 0.00,0.13671475414341336
+High,0,High,High,cat__city_Katy <= 0.00,0.12973478268270383
+Low,2,Low,Low,cat__city_Nyack <= 0.00,-0.3902042876303592
+Low,2,Low,Low,num__patient_survey_rating <= -1.06,0.3316821851856452
+Low,2,Low,Low,cat__city_East Orange <= 0.00,-0.29568210452935817
+Low,2,Low,Low,cat__city_Columbus <= 0.00,-0.260119474974729
+Low,2,Low,Low,cat__city_Sonoma <= 0.00,-0.2022973082931356
+Low,2,Low,Low,cat__city_Thousand Oaks <= 0.00,0.20063585455505895
+Low,2,Low,Low,cat__city_Stanford <= 0.00,0.13162969688319545
+Low,2,Low,Low,cat__county_CHEROKEE <= 0.00,-0.12208730604939913
+Low,2,Low,Low,cat__city_Perth Amboy <= 0.00,0.05530298328059903
+Low,2,Low,Low,cat__county_CALAVERAS <= 0.00,0.05064262258227253
+Medium,3,Medium,Medium,cat__city_Lodi <= 0.00,-0.2618565702242783
+Medium,3,Medium,Medium,cat__city_Jourdanton <= 0.00,-0.24662348643986332
+Medium,3,Medium,Medium,cat__city_Statesville <= 0.00,-0.2400892662362235
+Medium,3,Medium,Medium,cat__city_Albemarle <= 0.00,-0.23441828982860263
+Medium,3,Medium,Medium,cat__city_Tehachapi <= 0.00,-0.20816389755243775
+Medium,3,Medium,Medium,cat__city_San Andreas <= 0.00,-0.20199781929689054
+Medium,3,Medium,Medium,cat__city_Glendale <= 0.00,0.19175324063176558
+Medium,3,Medium,Medium,cat__city_Belleville <= 0.00,-0.18573981909723622
+Medium,3,Medium,Medium,cat__city_Kingwood <= 0.00,-0.17482056237025473
+Medium,3,Medium,Medium,cat__city_West Islip <= 0.00,-0.17288454934142686

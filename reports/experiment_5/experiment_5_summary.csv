@@ -1,0 +1,5 @@
+component,result,output
+SHAP,Global feature importance generated,shap_feature_importance.csv
+LIME,3 local explanations generated,lime_explanations.csv
+Fairlearn,Geographic fairness audit completed,fairness_summary.csv
+Mitigation,"Pre-, in-, and post-processing strategies proposed",experiment_5_final_report.txt

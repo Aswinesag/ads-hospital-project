@@ -1,0 +1,4 @@
+class,demographic_parity_difference,equalized_odds_difference,minimum_group_accuracy,maximum_group_accuracy,minimum_selection_rate,maximum_selection_rate,accuracy_difference,selection_rate_difference
+High,0.475,0.5,0.7333333333333333,1.0,0.125,0.6,0.2666666666666667,0.475
+Low,0.5333333333333333,1.0,0.725,1.0,0.0,0.5333333333333333,0.275,0.5333333333333333
+Medium,0.475,1.0,0.6666666666666666,1.0,0.025,0.5,0.33333333333333337,0.475
