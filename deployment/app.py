@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import pandas as pd
 import joblib
-import os
+from pathlib import Path
 
 
 # ============================================================
@@ -10,14 +10,12 @@ import os
 # Hospital Quality Prediction API
 # ============================================================
 
-MODEL_PATH = "best_hospital_quality_model.pkl"
+MODEL_PATH = Path(__file__).resolve().parent / "best_hospital_quality_model.pkl"
 
+if not MODEL_PATH.exists():
+    MODEL_PATH = Path(__file__).resolve().parent.parent / "models" / "best_hospital_quality_model.pkl"
 
-# ------------------------------------------------------------
-# Load model
-# ------------------------------------------------------------
-
-if not os.path.exists(MODEL_PATH):
+if not MODEL_PATH.exists():
     raise FileNotFoundError(
         f"Model not found at: {MODEL_PATH}"
     )
