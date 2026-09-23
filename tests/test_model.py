@@ -3,7 +3,6 @@ from pathlib import Path
 import joblib
 import pandas as pd
 
-
 MODEL_PATH = Path("models/best_hospital_quality_model.pkl")
 
 
