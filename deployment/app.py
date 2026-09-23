@@ -1,9 +1,9 @@
-from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
-import pandas as pd
-import joblib
 from pathlib import Path
 
+import joblib
+import pandas as pd
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
 
 # ============================================================
 # EXPERIMENT 6 - FASTAPI APPLICATION
@@ -142,9 +142,8 @@ def predict(hospital: HospitalInput):
             "probabilities": probability_dict
         }
 
-    except Exception as e:
-
-        raise HTTPException(
-            status_code=500,
-            detail=f"Prediction failed: {str(e)}"
-        )
+    except (ValueError, TypeError, KeyError) as e:
+    	raise HTTPException(
+		status_code=500,
+        	detail=f"Prediction failed: {e!s}"
+    	)
